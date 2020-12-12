@@ -38,7 +38,7 @@ module.exports = mongoose.model("Guild", new Schema({
 		automod: {
 			enabled: false, // Whether the auto moderation is enabled
 			ignored: [] // The channels in which the auto moderation is disabled
-		},
+		},	
 		// Auto sanctions
 		warnsSanctions: {
 			kick: false, // The number of warns required to kick the user
@@ -46,8 +46,8 @@ module.exports = mongoose.model("Guild", new Schema({
 		},
 		// Tickets
 		tickets: {
-			enabled: false, // Whether the tickets system is enabled
-			category: null // The category for the tickets system
+			enabled: true, // Whether the tickets system is enabled
+			category: [786813570179661834] // The category for the tickets system
 		},
 		suggestions: false, // the channel in which the suggestions will be sent
 		modlogs: false, // the channel in which the moderation logs (mute, kick, ban, etc...) will be sent

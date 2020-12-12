@@ -43,11 +43,11 @@ class Stats extends Command {
 			}));
 
 		statsEmbed.addField(this.client.customEmojis.link+" "+message.translate("general/stats:LINKS_TITLE"), message.translate("misc:STATS_FOOTER", {
-			donateLink: "https://patreon.com/Androz2091",
-			dashboardLink: "https://dashboard.atlanta-bot.fr",
+			donateLink: "#",
+			dashboardLink: "http://phox.hopto.org",
 			inviteLink: await this.client.generateInvite("ADMINISTRATOR"),
-			githubLink: "https://github.com/Androz2091",
-			supportLink: "https://discord.atlanta-bot.fr"
+			githubLink: "#",
+			supportLink: "#"
 		})
 		);
 		message.channel.send(statsEmbed);
