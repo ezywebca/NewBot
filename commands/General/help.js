@@ -121,11 +121,11 @@ class Help extends Command {
 		}
         
 		embed.addField("\u200B", message.translate("misc:STATS_FOOTER", {
-			donateLink: "#",
-			dashboardLink: "http://phox.hopto.org",
+			donateLink: "https://paypal.me/storm118?locale.x=en_US",
+			dashboardLink: "http://newbot.onthewifi.com",
 			inviteLink: await this.client.generateInvite("ADMINISTRATOR"),
 			githubLink: "#",
-			supportLink: "#"
+			supportLink: "https://phoxlist.anonymousottawa.repl.co/servers/783873034494148609/vote"
 		}));
 		embed.setAuthor(message.translate("general/help:TITLE", {
 			name: this.client.user.username

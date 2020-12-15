@@ -10,7 +10,7 @@ module.exports = class Command {
 		botPermissions = new Array(),
 		memberPermissions = new Array(),
 		nsfw = false,
-		ownerOnly = false,
+		ownerOnly = true,
 		cooldown = 3000
 	})
 	{

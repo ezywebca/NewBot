@@ -1,5 +1,5 @@
 # Commands  
-Here's the list of Atlanta commands. This one contains more than **110 commands** in **8 categories**!  
+Here's the list of NewBot commands. This one contains more than **110 commands** in **8 categories**!  
 
 #### Contents of the table  
 **Name**: The name of the command  

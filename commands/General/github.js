@@ -21,12 +21,12 @@ class Github extends Command {
 
 	async run (message, args, data) {
         
-		const res = await fetch("https://api.github.com/repos/Androz2091/AtlantaBot");
+		const res = await fetch("#");
 		const json = await res.json();
 
 		const embed = new Discord.MessageEmbed()
 			.setAuthor(this.client.user.tag, this.client.user.displayAvatarURL())
-			.setDescription("["+message.translate("general/github:CLICK_HERE")+"](https://github.com/Androz2091/AtlantaBot)")
+			.setDescription("["+message.translate("general/github:CLICK_HERE")+"](#)")
 			.addField("Stars", json.stargazers_count, true)
 			.addField("Forks", json.forks_count, true)
 			.addField(message.translate("general/github:LANGUAGE"), json.language, true)
